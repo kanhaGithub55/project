@@ -1,0 +1,338 @@
+@media (max-width: 767px) {
+    #first nav {
+      flex-direction: column;
+    }
+  
+    #first ul {
+      display: none;
+      width: 100%;
+      margin-top: 10px;
+      flex-direction: column;
+      align-items: flex-end;
+    }
+  
+    #first ul.active {
+      display: flex;
+    }
+  
+    #first .hamb {
+      display: block;
+      cursor: pointer;
+      font-size: 24px;
+    }
+  
+    #first .logo-box {
+      display: flex;
+      width: 100%;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+  
+  @media (max-width: 1035px) {
+    #first ul {
+      flex-wrap: wrap;
+    }
+  }
+  
+  @media (max-width:768px) {
+
+    #second h1 {
+      font-size: 2.8rem;
+    }
+  
+
+    #second .cont-two .left {
+      max-width: 100%;
+      font-size: 28px;
+      padding: 0;
+    }
+ 
+    #second .cont-two {
+      width: 90%;
+      padding-block: 10px;
+      margin: auto;
+    }
+ 
+    #second {
+      background-image: url('');
+    }
+ 
+    #second .bottom-image {
+      height: 600px;
+      background-image: url('/image/girl-trans.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+    }
+  }
+ 
+  @media (max-width:450px) {
+ 
+    #second .bottom-image {
+      height: 400px;
+      background-image: url('/image/girl-trans.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    
+  }
+
+  /* --------------------ankit----------- */
+
+
+  @media (max-width: 768px) {
+
+   
+    .second-section h1 {
+      font-size: 40px;
+    }
+  
+    .second-section .card-container {
+      flex-direction: column;
+      align-items: start;
+    }
+  
+    .third-section {
+      flex-direction: column;
+      padding: 20px;
+    }
+  
+    .third-section .two-image .back-image {
+      max-width: 100%;
+    }
+  
+    .third-section .two-image #front-image {
+      display: none;
+    }
+  
+    .third-section .head {
+      width: 100%;
+      padding: 20px;
+    }
+  
+    .third-section .head h1 {
+      font-size: 36px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .second-section h1 {
+      font-size: 34px;
+    }
+  
+    .second-section .card-container {
+      flex-direction: column;
+      justify-content: center;
+      margin: auto;
+      padding: 20px;
+      align-items: center;
+      
+    }
+  
+    .second-section .card-container .four-card-container {
+      flex-direction: column;
+      margin-inline: auto;
+    }
+  }
+
+
+  @media (max-width : 768px) {
+    .five {
+      width: 100%;
+      flex-direction: column;
+      padding: 20px 0px;
+  
+    }
+  
+    .metting-image img {
+      border-radius: 12px;
+      width: 335px;
+      display: flex;
+      margin-inline: auto;
+    }
+  
+  
+    .multiple-card {
+      padding: 20px 0px;
+    }
+  
+    .multiple-card .heading-two {
+      padding: 20px;
+      text-align: start;
+    }
+  
+    .multiple-card .heading-two p {
+      text-align: start;
+    }
+  
+    .multiple-card .card-container {
+      flex-direction: column;
+     
+      padding: 40px 0px;
+      gap: 20px;
+    }
+  
+    .multiple-card .card-container .card {
+      width: 90%;
+      height: 140px;
+      padding: 20px 40px;
+    }
+  
+    .multiple-card .card-container .fives {
+      height: 100px;
+    }
+  
+    .multiple-card #learn-button {
+      padding: 15px 20px;
+    }
+  
+  }
+
+  @media(max-width:390px){
+    .metting-image img {
+      width: 280px;
+    }
+  }
+  
+
+  /* kanhaiya-------------------------- */
+
+
+  @media (max-width : 768px) {
+
+    .seventh .const-7 h1{
+        font-size: 27px;
+    }
+
+    .seventh .const-7 .card-sec{
+        flex-direction: column;
+        
+    }
+
+    .seventh .const-7 .card-sec .card-section {
+        margin: auto;
+    }
+
+
+    .seventh .const-7 h1{
+        width: 60%;
+    }
+
+
+    .seventh .const-7 .head-para{
+        max-width: 80%;
+    
+    }
+
+    .seventh .const-7 .card-sec .card-section {    
+        max-width: 350px;
+       
+    }
+
+
+    
+
+}
+
+@media (max-width : 567px) {
+
+    .seventh .const-7 h1{
+        font-size: 20px;
+    }
+
+    .seventh .const-7 .buttons .more-button{
+        font-size: 13px;
+    }
+
+    .seventh .const-7 .card-sec .card-section{
+        max-width: 100%;
+    }
+    
+}
+
+
+
+/* prince  */
+
+@media(max-width:768px) {
+    .inner-last-section {
+      display: block;
+    }
+  
+    .last-section {
+      max-width: 100%;
+      margin-top: 0;
+    }
+  
+    .last-section h1 {
+      font-size: 33px;
+    }
+  
+    .last-section p {
+      font-size: 14px;
+    }
+  
+    .inner-last-section img {
+      width: 100%;
+      margin-top: 20px;
+    }
+  
+    .main-image {
+      padding-top: 0px;
+    }
+  
+  
+    .smooth-card-container {
+      width: 90%;
+      margin: auto;
+      margin-top: -210px;
+      margin-left: 20px;
+      padding: 10px;
+    }
+  
+    .smooth-card h1 {
+      font-size: 24px;
+      color: white;
+      text-align: center;
+    }
+  
+    .smooth-card p {
+      font-size: 14px;
+      color: whitesmoke;
+      text-align: center;
+      width: 100%;
+      margin: auto;
+    }
+  
+    .inner-footer-cont {
+      display: block;
+      width: 100%;
+      margin: auto;
+    }
+  
+    .footer-right {
+      display: block;
+      width: 90%;
+      margin: auto;
+    }
+  
+    .footer-left {
+      width: 90%;
+      margin-top: 50px;
+      padding-block: 50px;
+      margin: auto;
+    }
+  
+    .footer-right h3 {
+      margin-top: 20px;
+    }
+  
+    .footer-left input {
+      padding: 10px 5px;
+    }
+  
+  }
+  
