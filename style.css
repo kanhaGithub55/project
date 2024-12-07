@@ -38,8 +38,16 @@
   #first .logo {
     padding: 10px 20px;
     font-weight: 700;
-    color: orange;
+    font-family: "Roboto Slab", serif;
+    color: orangered;
     font-size: 28px;
+  }
+
+  #first .logo p{
+    font-size: 10px;
+    padding-left: 20px;
+    font-family: sans-serif;
+    color: orangered;
   }
   
   #first a {
@@ -101,6 +109,7 @@
   #second .cont-two .left {
     max-width: 50%;
     font-size: 28px;
+    font-family: "Poppins", serif;
     padding: 50px 0px;
  
   }
@@ -141,6 +150,8 @@
 
   #second .cont-two button:hover{
   box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2);
+  cursor: pointer;
+
 
   }
 
@@ -152,6 +163,7 @@
   .second-section h1 {
     text-align: center;
     font-size: 48px;
+    font-family: "Poppins", serif;
   }
   .second-section span {
     color: rgba(238, 50, 25, 0.938);
@@ -161,6 +173,7 @@
     justify-content: center;
     padding: 40px 0px;
     gap: 30px;
+    /* border: 1px solid red; */
   }
   .second-section .card-container .four-card-container {
     display: flex;
@@ -234,7 +247,13 @@
   }
   .third-section .head h1 {
     font-size: 40px;
+    font-family: "Poppins", serif;
   }
+
+  .head p{
+    margin-top: 16px;
+  }
+
   .third-section .head h1 span {
     color: rgba(238, 50, 25, 0.938);
   }
@@ -289,6 +308,8 @@
   .reason-para h1 {
     width: 325px;
     font-size: 36px;
+    font-family: "Poppins", serif;
+    line-height: 42px;
   }
   
   .reason-para p {
@@ -337,6 +358,7 @@
   
   .multiple-card .heading-two h1 {
     font-size: 40px;
+    font-family: "Poppins", serif;
     max-width: 600px;
     margin: 0px auto 20px auto;
   }
@@ -420,6 +442,8 @@
   }
   .multiple-card #learn-button:hover{
   box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2);
+  cursor: pointer;
+
   }
 
   
@@ -436,6 +460,7 @@
 
 .seventh .const-7 h1{
     width: 50%;
+     font-family: "Poppins", serif;
     margin: auto;
     text-align: center;
 }
@@ -536,6 +561,8 @@
 }
 .seventh .const-7 .buttons :hover{
   box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2);
+  cursor: pointer;
+
 
 }
 
@@ -554,6 +581,7 @@
   
   .last-section h1 {
     font-size: 48px;
+    font-family: "Poppins", serif;  
   }
   
   .last-section span {
@@ -611,6 +639,7 @@
   
   .footer-left h2 {
     font-size: 24px;
+    font-family: "Roboto Slab", serif;
     color: orangered;
   }
   
@@ -660,6 +689,7 @@
   
   .footer-right h3 {
     font-size: 24px;
+    font-family: "Poppins", serif;
     font-weight: 400;
     color: white;
   }
@@ -674,13 +704,10 @@
     display: flex;
     padding: 30px;
     position: absolute;
-    width: 80%;
+    width: 70%;
     background-color: blueviolet;
-    margin-left: 10%;
-    margin-top: -210px;
-    margin-top: -190px;
-    margin-top: -150px;
-
+    margin-left: 15%;
+    margin-top: -200px;
     border-radius: 10px;
   }
   
@@ -724,7 +751,6 @@
   
  
   
-
 
 
 
