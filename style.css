@@ -139,6 +139,11 @@
     margin-top: 30px;
   }
 
+  #second .cont-two button:hover{
+  box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2);
+
+  }
+
 
 
   /* -------------third------------------  */
@@ -413,6 +418,9 @@
     display: flex;
     margin-inline: auto;
   }
+  .multiple-card #learn-button:hover{
+  box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2);
+  }
 
   
 
@@ -527,7 +535,7 @@
 
 }
 .seventh .const-7 .buttons :hover{
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2);
 
 }
 
